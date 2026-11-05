@@ -1,0 +1,639 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .first-bg {
+        background: url(./file_000000003074820ebf9c579409a13b82.png) no-repeat;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h1 class="text-white">Nour Al Deen Restaurant</h1></a
+        >
+        <div class="ms-auto"><h1>
+              <a href="#" class="social-icon">
+                <i class="bi bi-instagram"></i>
+              </a>
+
+              <a href="#" class="social-icon">
+                <i class="bi bi-whatsapp"></i>
+              </a></h1></div>
+      </div>
+    </nav>
+    <section class="first-bg">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid bg-opacity-50">
+          <button
+            class="navbar-toggler m-1"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbar-nav"
+            aria-controls="navbar-nav"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start bg-black border-bottom border-warning"
+            tabindex="-1"
+            id="navbar-nav"
+          >
+            <div class="offcanvas-header bg-shoco">
+              <h5 class="offcanvas-title text-warning">Nour Al Deen</h5>
+              <button
+                type="button"
+                class="btn-close bg-warning"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>  <div class="offcanvas-body">
+              <ul class="navbar-nav mx-auto mb-2 gap-lg-5 gap-sm-2">
+                <li class="nav-item 5">
+                  <a class="nav-link text-white" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white active text-decoration-underline" href="./menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link  text-white "
+                    href="./about.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#followus">Follow Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container mt-5">
+        <div class="row justify-content-center algin-item-center">
+          <div
+            class="col-md-5 text-center fs-1 bg-menu border-bottom border-warning rounded"
+          >
+            <h1 class="text-warning fs-1 p-5">Menu</h1>
+            <p class="lead text-white fs-1 border-top border-warning text">
+              OUR MENU<br />
+
+              A journey through authentic Japanese flavors, crafted with
+              tradition and passion.
+            </p>
+            <a type="button" class="btn btn-lg btn-outline-warning m-3" href="#menu"
+              >See Ouer Menu</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-shoco">
+      <div class="container">
+        <div class="row mb-5">
+          <div
+            class="col-md-6 border-end border-2 border-warning justify-content-center algin-item-center mt-4"
+          >
+            <h1 class="my-5 pt-5 text-japan">
+              <i class="bi bi-flower1 text-warning me-2 fs-5"></i>The Art of
+              Japanese Cuisine
+            </h1>
+          </div>
+          <div class="col-md-6">
+            <p class="my-5 pt-5 lead fs-4 ms-3 text-light w-75 opacity-75">
+              Starting from the heart of Japan, we invite you on an authentic
+              culinary journey inspired by tradition, elegance, and
+              unforgettable flavors.
+            </p>
+            <a
+              class="nav-link text-light border-bottom border-2 border-warning d-inline-block fs-5 ms-3 opacity-75"
+              href="./menu.html"
+              >Explore Our Menu</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="./file_000000003074820ebf9c579409a13b82.png"
+              alt=""
+              class="img-fluid zoom rounded border-bottom border-warning mb-4"
+            />
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./file_00000000e8b0820ea3d49943a13c31f6.png"
+              alt=""
+              class="img-fluid zoom rounded border-bottom border-warning mb-4"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mb-5" id="menu">
+        <button class="btn btn-warning filter-btn" data-filter="all">
+          All
+        </button>
+
+        <button class="btn btn-outline-warning filter-btn" data-filter="ramen">
+          Ramen
+        </button>
+
+        <button class="btn btn-outline-warning filter-btn" data-filter="drinks">
+          Drinks
+        </button>
+
+        <button
+          class="btn btn-outline-warning filter-btn"
+          data-filter="dessert"
+        >
+          Dessert
+        </button>
+      </div>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md-6">
+            <div class="row">
+              
+              <div class="col-md-12 food-card ramen my-3">
+                <img
+                  src="./file_00000000f2a0820eab3923c34421c19f.png"
+                  class="img-fluid rounded-3 zoom object-fit-cover"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between matcha">
+                      <h4 class="mt-3 text-success m-3">combo meal :</h4>
+                      <h4 class="mt-3 text-success m-3">¥2300</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+           
+              <div class="col-md-12 food-card ramen my-3">
+                <img
+                  src="./photo_2026-07-19_23-37-20.jpg"
+                  class="img-fluid rounded-3 zoom object-fit-cover"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between matcha">
+                      <h4 class="mt-3 text-success m-3">Ramen :</h4>
+                      <h4 class="mt-3 text-success m-3">¥250</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="col-md-12 food-card ramen my-3">
+                <img
+                  src="./photo_2026-07-19_23-37-23.jpg"
+                  class="img-fluid rounded-3 zoom object-fit-cover"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between matcha">
+                      <h4 class="mt-3 text-success m-3">Sushi :</h4>
+                      <h4 class="mt-3 text-success m-3">¥270</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+
+              <div class="col-md-6 food-card dessert my-3">
+                <img
+                  src="./1784732673629.png"
+                  class="img-fluid rounded-3 zoom object-fit-cover"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between milk-chocolate">
+                      <h4 class="mt-3 text-milk-chocolate m-3 fs-5">
+                        choco cube:
+                      </h4>
+                      <h4 class="mt-3 text-milk-chocolate m-3 fs-5">¥500</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="col-md-6 food-card dessert my-3">
+                <img
+                  src="./1784732636243.png"
+                  class="img-fluid rounded-3 zoom object-fit-cover"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between matcha">
+                      <h4 class="mt-3 text-success m-3 fs-5">mochi :</h4>
+                      <h4 class="mt-3 text-success m-3 fs-5">¥250</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+                 <div class="col-md-12 food-card drinks my-3">
+                <img
+                  src="./file_0000000066b4820eb604f77c9f32bb5b.png"
+                  class="img-fluid rounded-3 zoom"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between mango">
+                      <h4 class="mt-3 text-warning m-3">🥭BOBA MANGO :</h4>
+                      <h4 class="mt-3 text-warning m-3">¥600</h4>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between matcha">
+                      <h4 class="mt-3 text-success m-3">🍵BOBA MATCHA :</h4>
+                      <h4 class="mt-3 text-success m-3">¥300</h4>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between strawberry">
+                      <h4 class="mt-3 text-danger m-3">🍓BOBA STRAWBERRY :</h4>
+                      <h4 class="mt-3 text-danger m-3">¥400</h4>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between caramell">
+                      <h4 class="mt-3 text-caramell m-3">🍯BOBA CARAMEL :</h4>
+                      <h4 class="mt-3 text-caramell m-3">¥450</h4>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between milk-chocolate">
+                      <h4 class="mt-3 text-milk-chocolate m-3">
+                        🍫BOBA CHOCOLATE :
+                      </h4>
+                      <h4 class="mt-3 text-milk-chocolate m-3">¥500</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-12 food-card dessert my-3">
+              <img
+                src="./file_000000007324820e80a915dc799368bf.png"
+                class="img-fluid rounded-3 zoom object-fit-cover"
+              />
+              <div class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1">
+                <div class="col-md-12">
+                  <div class=" text-center">
+                    <h4 class="mt-3  text-primary m-3">¥350</h4>
+                  </div>
+                </div>
+                <hr />
+                <div class="col-md-12">
+                  <div class="d-flex justify-content-between caramell">
+                    <h4 class="mt-3 text-caramell m-3">Exstra  caramell  :</h4>
+                    <h4 class="mt-3 text-caramell m-3">+¥40</h4>
+                  </div>
+                </div>
+                <hr />
+                <div class="col-md-12">
+                  <div class="d-flex justify-content-between milk-chocolate">
+                    <h4 class="mt-3 text-milk-chocolate m-3">
+                      Exstra chocolate :
+                    </h4>
+                    <h4 class="mt-3 text-milk-chocolate m-3">+¥50</h4>
+                  </div>
+                </div>
+                <hr />
+                <div class="col-md-12">
+                  <div class="d-flex justify-content-between strawberry ">
+                    <h4 class="mt-3 text-danger m-3">
+                      Ice Cream :
+                    </h4>
+                    <h4 class="mt-3 text-danger m-3">+¥50</h4>
+                  </div>
+                </div>
+                <hr />
+              </div>
+            </div>
+
+            <div class="col-md-12 food-card drinks my-3">
+              <img
+                src="./file_000000007484820eb6ed9c483d41e8cd.png"
+                class="img-fluid rounded-3 zoom object-fit-cover"
+              />
+              <div class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1">
+                <div class="col-md-12">
+                  <div class="d-flex justify-content-between matcha">
+                    <h4 class="mt-3 text-success m-3">🍵MATCHA LATTE :</h4>
+                    <h4 class="mt-3 text-success m-3">¥250</h4>
+                  </div>
+                </div>
+                <hr />
+                <div class="col-md-12">
+                  <div class="d-flex justify-content-between caramell ">
+                    <h4 class="mt-3 text-caramell m-3">🍯CARAMELO LATTE :</h4>
+                    <h4 class="mt-3 text-caramell m-3">¥400</h4>
+                  </div>
+                </div>
+                <hr />
+                <div class="col-md-12">
+                  <div class="d-flex justify-content-between milk-chocolate">
+                    <h4 class="mt-3 text-milk-chocolate m-3">
+                      🍫CHOCOLATE LATTE :
+                    </h4>
+                    <h4 class="mt-3 text-milk-chocolate m-3">¥500</h4>
+                  </div>
+                </div>
+                <hr />
+              </div>
+            </div>
+            
+              <div class="col-md-12 food-card ramen my-3">
+                <img
+                  src="./1784733545408.png"
+                  class="img-fluid rounded-3 zoom object-fit-cover"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between matcha">
+                      <h4 class="mt-3 text-success m-3">combo meal :</h4>
+                      <h4 class="mt-3 text-success m-3">¥2300</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="col-md-12 food-card ramen my-3">
+                <img
+                  src="./file_00000000e8b0820ea3d49943a13c31f6.png"
+                  class="img-fluid rounded-3 zoom object-fit-cover"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between matcha">
+                      <h4 class="mt-3 text-success m-3">combo meal :</h4>
+                      <h4 class="mt-3 text-success m-3">¥800</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="col-md-12 food-card ramen my-3">
+                <img
+                  src="./1784735370287.png"
+                  class="img-fluid rounded-3 zoom object-fit-cover"
+                />
+                <div
+                  class="row bg-black bg-opacity-50 p-4 rounded-bottom-5 mx-1"
+                >
+                  <div class="col-md-12">
+                    <div class="d-flex justify-content-between matcha">
+                      <h4 class="mt-3 text-success m-3">Kobe Beef :</h4>
+                      <h4 class="mt-3 text-success m-3">¥1000</h4>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-black">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <p class="lead text-light opacity-75 lh-lg mt-5">
+              Discover the essence of Japan through a unique dining experience
+              inspired by tradition, harmony, and craftsmanship. Every dish
+              tells a story of authentic flavors, refined techniques, and the
+              timeless beauty of Japanese cuisine.
+            </p>
+
+            <div class="d-flex align-items-center mt-3">
+              <div class="text-warning me-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+
+              <small class="text-light opacity-75">
+                5.0 Rating on Google
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="bg-shoco">
+      <div class="container py-5 " id="followus">
+        <div
+          class="row align-items-center pb-5 border-bottom border-2 border-warning"
+        >
+          <div class="col-md-6">
+            <h1 class="small-title text-white">
+              Authentic Japanese Taste, Crafted with Passion
+            </h1>
+          </div>
+
+          <div class="col-md-6 text-md-end">
+            <div class="follow">
+              <span class="text-light me-3">Follow Us On:</span>
+
+              <a href="#" class="social-icon">
+                <i class="bi bi-facebook"></i>
+              </a>
+
+              <a href="#" class="social-icon">
+                <i class="bi bi-instagram"></i>
+              </a>
+
+              <a href="#" class="social-icon">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+
+              <a href="#" class="social-icon">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <footer class="text-light" style="background-color:#1c120c;">
+  <div class="container py-5">
+
+    <div class="row gy-4">
+
+      <div class="col-md-4">
+        <h2 class="text-warning fw-bold mb-3">
+          Nour Al Deen
+        </h2>
+
+        <p class="opacity-75 lh-lg">
+          Experience the art of authentic Japanese cuisine, where tradition,
+          elegance, and handcrafted flavors come together in every dish.
+        </p>
+
+        <div class="input-group mt-4">
+          <input 
+          type="email" 
+          class="form-control bg-transparent text-white border-warning"
+          placeholder="Your email">
+
+          <button class="btn btn-warning">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+
+      <div class="col-md-2">
+        <h5 class="text-warning mb-3">
+          Explore
+        </h5>
+
+        <ul class="list-unstyled">
+          <li><a href="./index.html" class="text-light text-decoration-none d-block mb-2 opacity-75">Home</a></li>
+          <li><a href="./about.html" class="text-light text-decoration-none d-block mb-2 opacity-75">About</a></li>
+          <li><a href="./Menu.html" class="text-light text-decoration-none d-block mb-2 opacity-75">Menu</a></li>
+        <li><a href="./contact.html" class="text-light text-decoration-none d-block mb-2 opacity-75">Contact</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-md-3">
+        <h5 class="text-warning mb-3">
+          Contact
+        </h5>
+
+        <p class="opacity-75 mb-2">
+          📍 Tokyo Inspired Restaurant
+        </p>
+
+        <p class="opacity-75 mb-2">
+          ☎ +963 90752146
+        </p>
+
+        <p class="opacity-75">
+          ✉ nour.al.deen.mouslly@gmail.com
+        </p>
+      </div>
+
+
+      <div class="col-md-3">
+        <h5 class="text-warning mb-3">
+          Follow Us
+        </h5>
+
+        <p class="opacity-75">
+          Stay connected and discover our latest dishes.
+        </p>
+
+        <div>
+          <a href="https://www.facebook.com/share/1QRJNxe5kN/" class="btn btn-outline-warning rounded-circle me-2">
+            <i class="bi bi-facebook fs-3"></i>
+          </a>
+
+          <a href="https://www.instagram.com/nour.al.deen_mouslly?igsh=MTA1dDljemU1NzMyMQ==" class="btn btn-outline-warning rounded-circle me-2">
+            <i class="bi bi-instagram fs-3"></i>
+          </a>
+
+          <a href="https://wa.me/15141234567" class="btn btn-outline-warning rounded-circle me-2">
+            <i class="bi bi-whatsapp fs-3"></i>
+          </a>
+
+          <a href="#" class="btn btn-outline-warning rounded-circle">
+            <i class="bi bi-twitter-x fs-3"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <hr class="border-warning opacity-50 mt-5">
+
+    <div class="text-center opacity-75">
+      © 2026 Nour Al Deen. All Rights Reserved.
+    </div>
+
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const buttons = document.querySelectorAll(".filter-btn");
+      const cards = document.querySelectorAll(".food-card");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          let category = button.dataset.filter;
+
+          cards.forEach((card) => {
+            if (category === "all" || card.classList.contains(category)) {
+              card.style.display = "block";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

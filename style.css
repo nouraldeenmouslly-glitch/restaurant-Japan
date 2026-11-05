@@ -1,0 +1,103 @@
+
+      .first-bg {
+        background: url(./file_000000009adc81f5801cefcf523ca1e7.png) no-repeat;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+      .bg-lead {
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .zoom:hover {
+        transform: scale(1.03);
+        transition: all 0.2s ease;
+      }
+      .bg-shoco {
+        background: #2b1a12;
+        color: white;
+      }
+      .text-japan {
+        color: #f5cda7;
+      }
+      .small-title {
+        font-size: 1.5rem;
+        color: #000000;
+        letter-spacing: 1px;
+      }
+
+      .social-icon {
+        width: 42px;
+        height: 42px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #3a2418;
+        color: #c8a45d;
+        margin-left: 8px;
+        font-size: 18px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+      }
+
+      .social-icon:hover {
+        transform: translateY(-6px);
+        color: #fff;
+        background-color: #c8a45d;
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6);
+      }
+      .bg-menu {
+        background-color: #00000093;
+      }
+      .text-caramell {
+        color: #9b6700;
+      }
+      .text-milk-chocolate {
+        color: #7f4801;
+      }
+      .mango:hover {
+        background-color: #ffc107;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+      }
+      .mango:hover h4 {
+        color: #ffffff !important;
+        transition: all 0.3s ease;
+      }
+      .matcha:hover {
+        background-color: #4caf50;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+      }
+      .matcha:hover h4 {
+        color: #ffffff !important;
+        transition: all 0.3s ease;
+      }
+      .caramell:hover {
+        background-color: #9b6700;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+      }
+      .caramell:hover h4 {
+        color: #ffffff !important;
+        transition: all 0.3s ease;
+      }
+      .strawberry:hover {
+        background-color: #921515;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+      }
+      .strawberry:hover h4 {
+        color: #ffffff !important;
+        transition: all 0.3s ease;
+      }
+      .milk-chocolate:hover {
+        background-color: #7f4801;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+      }
+      .milk-chocolate:hover h4 {
+        color: #ffffff !important;
+        transition: all 0.3s ease;
+      }
